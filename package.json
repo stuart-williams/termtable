@@ -1,0 +1,32 @@
+{
+  "name": "termtable",
+  "version": "1.0.0",
+  "description": "tbc",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuart-williams/termtable.git"
+  },
+  "author": "Stuart Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stuart-williams/termtable/issues"
+  },
+  "homepage": "https://github.com/stuart-williams/termtable#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-jasmine": "^1.8.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "mustache": "^2.2.1"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cliui": "^3.2.0",
+    "ramda": "^0.22.1"
+  }
+}
