@@ -3,7 +3,7 @@ module.exports = `
   <thead>
     <tr>
       <th class="alignright duff">Foo</th>
-      <th>Bar</th>
+      <th style="color:blue">Bar</th>
       <th>Baz</th>
     </tr>
   </thead>
