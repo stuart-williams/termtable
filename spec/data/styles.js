@@ -6,7 +6,10 @@ module.exports = {
     border: true,
     width: 25
   },
-  '.align-right': {
+  td: {
+    width: 25
+  },
+  alignright: {
     align: 'right'
   }
 }
