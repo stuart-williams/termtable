@@ -1,0 +1,23 @@
+{
+  "styles": {
+    "color": [
+      "black",
+      "red",
+      "green",
+      "yellow",
+      "blue",
+      "magenta",
+      "cyan",
+      "white",
+      "gray"
+    ],
+    "fontStyle": [
+      "italic",
+      "underline",
+      "strikethrough"
+    ],
+    "fontWeight": [
+      "bold"
+    ]
+  }
+}

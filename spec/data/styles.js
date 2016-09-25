@@ -1,15 +1,15 @@
 module.exports = {
-  table: {
-    width: 100
-  },
   th: {
-    border: true,
-    width: 25
+    color: 'white',
+    fontWeight: 'bold'
   },
-  td: {
-    width: 25
+  success: {
+    color: 'green'
   },
-  alignright: {
-    align: 'right'
+  warning: {
+    color: 'yellow'
+  },
+  danger: {
+    color: 'red'
   }
 }

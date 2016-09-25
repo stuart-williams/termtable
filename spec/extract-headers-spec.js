@@ -5,20 +5,26 @@ const model = require('./data/model')
 const styles = require('./data/styles')
 const extractHeaders = require('../src/extract-headers')
 
-xdescribe('Extract Headers', () => {
+describe('Extract Headers', () => {
   let $ = null
 
   beforeAll(() => {
     $ = cheerio.load(Mustache.render(template, model))
   })
 
-  it('should ...', () => {
+  it('should extract the headers as expected', () => {
     expect(extractHeaders($, styles)).toEqual([{
-      content: 'Foo'
+      content: 'Foo',
+      color: 'white',
+      fontWeight: 'bold'
     }, {
-      content: 'Bar'
+      content: 'Bar',
+      color: 'white',
+      fontWeight: 'bold'
     }, {
-      content: 'Baz'
+      content: 'Baz',
+      color: 'white',
+      fontWeight: 'bold'
     }])
   })
 })

@@ -2,17 +2,17 @@ module.exports = `
 <table>
   <thead>
     <tr>
-      <th class="alignright duff">Foo</th>
-      <th style="color:blue">Bar</th>
+      <th>Foo</th>
+      <th>Bar</th>
       <th>Baz</th>
     </tr>
   </thead>
   <tbody>
     {{#rows}}
     <tr>
-      <td>{{foo}}</td>
-      <td>{{bar}}</td>
-      <td>{{baz}}</td>
+      <td class="success">{{foo}}</td>
+      <td class="warning">{{bar}}</td>
+      <td class="danger">{{baz}}</td>
     </tr>
     {{/rows}}
   </tbody>
