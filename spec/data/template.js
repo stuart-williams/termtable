@@ -2,7 +2,7 @@ module.exports = `
 <table>
   <thead>
     <tr>
-      <th>Suite</th>
+      <th>Name</th>
       <th>Passed</th>
       <th>Failed</th>
       <th>Total</th>
@@ -11,10 +11,10 @@ module.exports = `
   <tbody>
     {{#rows}}
     <tr>
-      <td style="text-align:right">{{suite}}</td>
-      <td class="{{#passed}}passed{{/passed}}">{{passed}}</td>
-      <td class="{{#failed}}failed{{/failed}}">{{failed}}</td>
-      <td>{{total}}</td>
+      <td class="alignright">{{name}}</td>
+      <td class="{{#passed}}passed{{/passed}}{{^passed}}dull{{/passed}}">{{passed}}</td>
+      <td class="{{#failed}}failed{{/failed}}{{^failed}}dull{{/failed}}">{{failed}}</td>
+      <td class="total">{{total}}</td>
     </tr>
     {{/rows}}
   </tbody>

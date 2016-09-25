@@ -1,16 +1,16 @@
 module.exports = {
   rows: [{
-    suite: 'Foo',
+    name: 'Foo',
     passed: 2,
     failed: 1,
     total: 3
   }, {
-    suite: 'Bar',
+    name: 'Bar',
     passed: 1,
     failed: 0,
     total: 1
   }, {
-    suite: 'Baz',
+    name: 'Baz',
     passed: 0,
     failed: 2,
     total: 2
