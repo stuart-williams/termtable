@@ -1,5 +1,15 @@
 # Termtable
 
+Termtable is a wrapper around [cli-table2](https://github.com/jamestalmage/cli-table2) with the aim of making it a little more friendly...
+
+![Screenshot](http://s14.postimg.org/zc32dm74h/table.png)
+
+## Installation
+
+```bash
+npm install termtable --save
+```
+
 ## Usage
 
 ```js
@@ -60,7 +70,9 @@ const model = {
   }]
 }
 
-Termtable.render(Mustache.render(template, model), styles)
+const html = Mustache.render(template, model)
+
+Termtable.render(html, styles)
 ```
 
 ## Styles
@@ -98,3 +110,8 @@ Termtable.render(Mustache.render(template, model), styles)
 * top
 * center
 * bottom
+
+## References
+
+* [cli-table2](https://github.com/jamestalmage/cli-table2)
+* [chalk](https://github.com/chalk/chalk)

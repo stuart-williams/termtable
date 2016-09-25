@@ -5,7 +5,7 @@ const model = require('./data/model')
 const styles = require('./data/styles')
 const extractBody = require('../src/extract-body')
 
-xdescribe('Extract Body', () => {
+describe('Extract Body', () => {
   let $ = null
 
   beforeAll(() => {
@@ -14,8 +14,23 @@ xdescribe('Extract Body', () => {
 
   it('should extract the body as expected', () => {
     expect(extractBody($, styles)).toEqual([
-     [ { content: 'Hey', color: 'green' }, { content: 'World', color: 'yellow' }, { content: 'Sup?', color: 'red' } ],
-     [ { content: 'Hey', color: 'green' }, { content: 'Again', color: 'yellow' }, { content: 'World', color: 'red' } ]
-    ])
+      [
+        {'content': 'Foo', 'hAlign': 'right'},
+        {'content': '2', 'hAlign': 'center', 'color': 'green'},
+        {'content': '1', 'hAlign': 'center', 'color': 'red'},
+        {'content': '3', 'hAlign': 'center', 'color': 'cyan'}
+      ],
+      [
+        {'content': 'Bar', 'hAlign': 'right'},
+        {'content': '1', 'hAlign': 'center', 'color': 'green'},
+        {'content': '0', 'hAlign': 'center', 'color': 'gray'},
+        {'content': '1', 'hAlign': 'center', 'color': 'cyan'}
+      ],
+      [
+        {'content': 'Baz', 'hAlign': 'right'},
+        {'content': '0', 'hAlign': 'center', 'color': 'gray'},
+        {'content': '2', 'hAlign': 'center', 'color': 'red'},
+        {'content': '2', 'hAlign': 'center', 'color': 'cyan'}
+      ]])
   })
 })
