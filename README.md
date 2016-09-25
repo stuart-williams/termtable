@@ -2,7 +2,7 @@
 
 Termtable is a wrapper around [cli-table2](https://github.com/jamestalmage/cli-table2) with the aim of making it a little more friendly...
 
-![Screenshot](http://s14.postimg.org/zc32dm74h/table.png)
+![Screenshot](http://s22.postimg.org/7e4jrqvvl/table.png)
 
 ## Installation
 
