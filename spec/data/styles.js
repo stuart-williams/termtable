@@ -1,15 +1,7 @@
 module.exports = {
-  th: {
-    color: 'white',
-    fontWeight: 'bold'
-  },
-  success: {
-    color: 'green'
-  },
-  warning: {
-    color: 'yellow'
-  },
-  danger: {
-    color: 'red'
-  }
+  table: { borderColor: 'grey' },
+  th: { color: 'white', fontWeight: 'bold' },
+  td: { textAlign: 'center' },
+  passed: { color: 'green' },
+  failed: { color: 'red' }
 }

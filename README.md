@@ -23,3 +23,15 @@
 ### fontWeight
 
 * bold
+
+### textAlign
+
+* left
+* center
+* right
+
+### verticalAlign
+
+* top
+* center
+* bottom

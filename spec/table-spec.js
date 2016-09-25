@@ -1,17 +1,17 @@
-const table = require('../src/table')
+const Termtable = require('../')
 const Mustache = require('mustache')
 const template = require('./data/template')
 const model = require('./data/model')
 const styles = require('./data/styles')
 
-describe('', () => {
+describe('Termtable', () => {
   let html
 
   beforeAll(() => {
     html = Mustache.render(template, model)
   })
 
-  it('', () => {
-    table(html, styles)
+  it('should ...', () => {
+    Termtable.render(html, styles)
   })
 })

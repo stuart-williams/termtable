@@ -5,7 +5,7 @@ const model = require('./data/model')
 const styles = require('./data/styles')
 const extractBody = require('../src/extract-body')
 
-describe('Extract Body', () => {
+xdescribe('Extract Body', () => {
   let $ = null
 
   beforeAll(() => {

@@ -1,11 +1,18 @@
 module.exports = {
   rows: [{
-    foo: 'Hey',
-    bar: 'World',
-    baz: 'Sup?'
+    suite: 'Foo',
+    passed: 2,
+    failed: 1,
+    total: 3
   }, {
-    foo: 'Hey',
-    bar: 'Again',
-    baz: 'World'
+    suite: 'Bar',
+    passed: 1,
+    failed: 0,
+    total: 1
+  }, {
+    suite: 'Baz',
+    passed: 0,
+    failed: 2,
+    total: 2
   }]
 }

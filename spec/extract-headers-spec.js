@@ -5,7 +5,7 @@ const model = require('./data/model')
 const styles = require('./data/styles')
 const extractHeaders = require('../src/extract-headers')
 
-describe('Extract Headers', () => {
+xdescribe('Extract Headers', () => {
   let $ = null
 
   beforeAll(() => {

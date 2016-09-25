@@ -1,4 +1,3 @@
-const { map, forEach, keys } = require('ramda')
 const chalk = require('chalk')
 const config = require('../config.json')
 
@@ -10,9 +9,9 @@ const applyChalkStyle = (model) => (prop) => {
 }
 
 module.exports = function applyChalkStyles (data) {
-  return map((model) => {
+  return data.map((model) => {
     if (Array.isArray(model)) return applyChalkStyles(model)
-    forEach(applyChalkStyle(model), keys(config.styles))
+    Object.keys(config.styles).forEach(applyChalkStyle(model))
     return model
-  }, data)
+  })
 }
