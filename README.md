@@ -4,12 +4,6 @@ Termtable is a wrapper around [cli-table2](https://github.com/jamestalmage/cli-t
 
 ![Screenshot](http://s22.postimg.org/7e4jrqvvl/table.png)
 
-## Installation
-
-```bash
-npm install termtable --save
-```
-
 ## Usage
 
 ```js
