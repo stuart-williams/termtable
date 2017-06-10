@@ -9,7 +9,7 @@ Termtable is a wrapper around [cli-table2](https://github.com/jamestalmage/cli-t
 ```js
 
 const Termtable = require('termtable')
-const Mustache = require('mustache') // Use whatever templating language you like!
+const Mustache = require('mustache')
 
 const template = `
 <table>
