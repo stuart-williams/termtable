@@ -1,5 +1,3 @@
-⚠ UNDER CONSTRUCTION
-
 # Termtable
 
 Termtable is a wrapper around [cli-table2](https://github.com/jamestalmage/cli-table2) with the aim of making it a little more friendly...
